@@ -1,3 +1,39 @@
+.author {
+  margin: 0 5px 5px 0;
+}
+
+.add {
+  margin: 0 5px 5px 0;
+  width: 210px;
+  border: 1px dashed rgba(0, 89, 181, 0.82);
+  padding: 5px;
+}
+
+.add_author, .add_text, .add_button, .add_check {
+  display: block;
+  margin: 0 0 5px 0;
+  padding: 5px;
+  width: 94%;
+  border: 1px solid rgba(0, 89, 181, 0.82);
+}
+
+.add_check {
+  border: none;
+  font-size: 12px;
+}
+
+.add_button {
+  box-sizing: content-box;
+  color: #FFF;
+  text-transform: uppercase;
+  background: #007DDC;
+}
+
+.add_button:disabled {
+  background: #CCC;
+  color: #999;
+}
+
 .App {
   text-align: center;
 }
